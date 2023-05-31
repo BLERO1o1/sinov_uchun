@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.navbar-toggle span {
+  color: black;
+  background-color: black;
+}
+
+.navbar ul li a {
+  color: black;
+}
+
+.navbar .navbar-header a {
+  color: black;
+}
+
+.main {
+  width: 100%;
+  height: 530px;
+  background-color: #050827;
+}
+
+.main .main-wrapper {
+  max-width: 940px;
+  height: 100%;
+  background-image: url(./IMAGE\ \(3\).png);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.ff {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.gg {
+  text-align: center;
+}
+
+.section .section-wrapper {
+  max-width: 940px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.section .section-wrapper .card {
+  width: 45%;
+}
+.section .section-wrapper .card .img {
+  width: 100%;
+}
+
+.card2 .card2-wrapper {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card2 .card2-wrapper .card {
+  width: 45%;
+}
+.card2 .card2-wrapper .card .img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
